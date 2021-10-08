@@ -14,6 +14,9 @@ team join Antenat Wentuziak
 team add SonOfPoseidon
 team join SonOfPoseidon Gackt
 
+#Borius
+team add AlbtraumPriest
+team join Borius321
 
 # Borius
 
@@ -22,6 +25,6 @@ scoreboard objectives remove BoriusCooldown
 
 scoreboard objectives add BoriusSpell trigger
 scoreboard objectives add BoriusCooldown dummy
-scoreboard players enable Borius321 BoriusSpell
+scoreboard players enable @p[team=AlbtraumPriest] BoriusSpell
 
-scoreboard players set Borius321 BoriusCooldown 0
+scoreboard players set @p[team=AlbtraumPriest] BoriusCooldown 0
