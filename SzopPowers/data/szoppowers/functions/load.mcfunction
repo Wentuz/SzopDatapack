@@ -3,6 +3,8 @@ tellraw @a {"text": "Current heroes registered:", "color": "#00FF00"}
 tellraw @a {"text": "-Gackt", "color": "aqua"}
 
 
+#For special items
+
 #teams for players
 
 #Wentuziak
@@ -16,7 +18,7 @@ team join SonOfPoseidon Gackt
 
 #Borius
 team add AlbtraumPriest
-team join Borius321
+team join AlbtraumPriest
 
 # Borius
 
