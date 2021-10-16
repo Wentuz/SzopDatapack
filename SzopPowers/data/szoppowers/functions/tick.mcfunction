@@ -1,7 +1,7 @@
 #----------------------------------Test----------------------------------
 
 #----------------------------------Items----------------------------------
-execute if entity @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Count:1b,tag:{soulShard:1}}]}] run effect give @p resistance 1
+execute if entity @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Count:1b,tag:{soulShard:1}}]}] run effect give @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Count:1b,tag:{soulShard:1}}]}] resistance 1
 
 #----------------------------------Gackt----------------------------------
 execute at @p[team=SonOfPoseidon] if block ~ ~ ~ water run effect give @p[team=SonOfPoseidon] strength 1 0 true
