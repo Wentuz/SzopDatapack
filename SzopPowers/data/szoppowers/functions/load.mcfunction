@@ -16,6 +16,10 @@ team join Antenat Wentuziak
 team add SonOfPoseidon
 team join SonOfPoseidon Gackt
 
+#Cytrus
+
+team add DragonBorn
+
 #Borius
 team add AlbtraumPriest
 team join AlbtraumPriest

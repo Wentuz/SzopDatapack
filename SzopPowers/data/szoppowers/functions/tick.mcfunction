@@ -42,3 +42,6 @@ execute if entity @e[team=AlbtraumPriest,scores={BoriusCooldown=0}] at @e[type=i
 
 #----------------------------------Wentuziak----------------------------------
 execute at @p[team=Antenat] run particle portal ~ ~0.7 ~ 0.1 0.1 0.1 0.1 1
+
+#----------------------------------Wentuziak----------------------------------
+execute at @p[team=DragonBorn] run effect give @p[team=DragonBorn] fire_resistance

@@ -23,7 +23,7 @@
               }
             }
           ],
-          "name": "minecraft:diamond"
+          "name": "minecraft:dirt"
         }
       ]
     },
@@ -63,7 +63,7 @@
               }
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "minecraft:stone"
         }
       ]
     }
