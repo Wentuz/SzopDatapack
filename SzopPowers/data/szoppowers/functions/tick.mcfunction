@@ -43,5 +43,8 @@ execute if entity @e[team=AlbtraumPriest,scores={BoriusCooldown=0}] at @e[type=i
 #----------------------------------Wentuziak----------------------------------
 execute at @p[team=Antenat] run particle portal ~ ~0.7 ~ 0.1 0.1 0.1 0.1 1
 
-#----------------------------------Wentuziak----------------------------------
+#----------------------------------MilaDeCytrus----------------------------------
 execute at @p[team=DragonBorn] run effect give @p[team=DragonBorn] fire_resistance
+
+#---------------------------------MatiSzatani----------------------------------
+execute at @p[team=IceDude] run particle snowflake ~ ~0.8 ~ 0.5 0.5 0.1 0.1 1

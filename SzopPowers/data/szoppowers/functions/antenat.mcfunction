@@ -1,0 +1,1 @@
+execute at Wentuziak run give @p dirt

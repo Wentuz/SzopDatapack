@@ -1,6 +1,5 @@
-tellraw @a {"text": "Szop powers activated", "color": "#00FF00"}
-tellraw @a {"text": "Current heroes registered:", "color": "#00FF00"}
-tellraw @a {"text": "-Gackt", "color": "aqua"}
+tellraw @a {"text": "SZOP", "color": "#00FF00"}
+tellraw @a {"text": "go ahead, try and complain. Pay me first then you may", "color": "#00FF00"}
 
 
 #For special items
@@ -34,3 +33,7 @@ scoreboard objectives add BoriusCooldown dummy
 scoreboard players enable @p[team=AlbtraumPriest] BoriusSpell
 
 scoreboard players set @p[team=AlbtraumPriest] BoriusCooldown 0
+
+# MatiSzatani
+
+team add IceDude
