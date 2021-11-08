@@ -23,17 +23,6 @@ team add DragonBorn
 team add AlbtraumPriest
 team join AlbtraumPriest
 
-# Borius
-
-scoreboard objectives remove BoriusSpell
-scoreboard objectives remove BoriusCooldown
-
-scoreboard objectives add BoriusSpell trigger
-scoreboard objectives add BoriusCooldown dummy
-scoreboard players enable @p[team=AlbtraumPriest] BoriusSpell
-
-scoreboard players set @p[team=AlbtraumPriest] BoriusCooldown 0
-
 # MatiSzatani
 
 team add IceDude
