@@ -4,7 +4,7 @@ execute if entity @p[team=BushyWushy,scores={eatEye=1..}] run scoreboard players
 
 effect give @a[team=BushyWushy,scores={eatPuffer=1..}] minecraft:strength 10 4
 effect give @a[team=BushyWushy,scores={eatPuffer=1..}] minecraft:resistance 10 2
-effect give @a[team=BushyWushy,scores={eatRot=1..}] minecraft:blindness 2 1
+effect give @a[team=BushyWushy,scores={eatPuffer=1..}] minecraft:blindness 2 1
 execute if entity @p[team=BushyWushy,scores={eatPuffer=1..}] run scoreboard players reset @p[team=BushyWushy] eatPuffer
 
 effect give @a[team=BushyWushy,scores={eatRot=1..}] minecraft:instant_health 1 3
