@@ -15,3 +15,7 @@ execute if entity @p[team=DragonBorn] run function szoppowers:dragonborn
 
 #---------------------------------MatiSzatani----------------------------------
 execute if entity @p[team=IceDude] run function szoppowers:icedude
+#---------------------------------KuStar----------------------------------
+execute if entity @p[team=BushyWushy] run function szoppowers:bushywushy
+#---------------------------------Borius----------------------------------
+execute if entity @p[team=AlbtraumPriest] run function szoppowers:albtraumpriest
