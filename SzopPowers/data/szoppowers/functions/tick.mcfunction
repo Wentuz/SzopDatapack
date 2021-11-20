@@ -1,5 +1,5 @@
 #----------------------------------Test----------------------------------
-
+execute at @e[name=fuck] run particle portal ~ ~0.7 ~ 0.1 0.1 0.1 0.1 1
 #----------------------------------Items----------------------------------
 execute if entity @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Count:1b,tag:{soulShard:1}}]}] run effect give @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Count:1b,tag:{soulShard:1}}]}] resistance 1
 
