@@ -4,6 +4,9 @@ tellraw @a {"text": "go ahead, try and complain. Pay me first then you may", "co
 
 #For special items
 
+scoreboard objectives add spellcooldown dummy
+scoreboard objectives add cooldownmod level
+
 #teams for players
 
 #Wentuziak
