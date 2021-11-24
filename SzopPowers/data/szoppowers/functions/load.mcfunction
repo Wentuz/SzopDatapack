@@ -18,10 +18,12 @@ team join SonOfPoseidon Gackt
 #Cytrus
 team add DragonBorn
 team join DragonBorn _Kankitsu_
+scoreboard objectives add DragonSpit minecraft.used:minecraft.glow_berries
 
 #Borius
 team add AlbtraumPriest
 team join AlbtraumPriest Borius321
+
 scoreboard objectives remove BoriusSpell
 scoreboard objectives remove BoriusCooldown
 

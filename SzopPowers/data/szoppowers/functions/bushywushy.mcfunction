@@ -10,6 +10,7 @@ execute if entity @p[team=BushyWushy,scores={eatPuffer=1..}] run scoreboard play
 effect give @a[team=BushyWushy,scores={eatRot=1..}] minecraft:instant_health 1 3
 effect give @a[team=BushyWushy,scores={eatRot=1..}] minecraft:regeneration 10 2
 effect give @a[team=BushyWushy,scores={eatRot=1..}] minecraft:weakness 10 2
+effect clear @a[team=BushyWushy,scores={eatRot=1..}] minecraft:hunger
 execute if entity @p[team=BushyWushy,scores={eatRot=1..}] run scoreboard players reset @p[team=BushyWushy] eatRot
 
 effect give @a[team=BushyWushy,scores={eatChicken=1..}] minecraft:jump_boost 10 3
