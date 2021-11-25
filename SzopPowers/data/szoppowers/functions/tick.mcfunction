@@ -5,8 +5,7 @@ execute if entity @a[nbt={Inventory:[{tag:{testmagic:1}}]}] run function szoppow
 #----------------------------------Items----------------------------------
 execute if entity @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Count:1b,tag:{soulShard:1}}]}] run effect give @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Count:1b,tag:{soulShard:1}}]}] resistance 1
 
-
-
+execute if entity @a[nbt={Inventory:[{tag:{visionary:1}}]}] run function szoppowers:visionary
 function szoppowers:magicbasic
 #----------------------------------Gackt----------------------------------
 execute if entity @p[team=SonOfPoseidon] run function szoppowers:sonofposeidon
