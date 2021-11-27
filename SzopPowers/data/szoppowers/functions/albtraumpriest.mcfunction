@@ -1,4 +1,7 @@
 #----------------------------------Borius----------------------------------
+
+effect give @p[team=AlbtraumPriest] night_vision
+
 #Disables abbility for him to lose this book
 scoreboard players enable Borius321 BoriusSpell
 execute at @e[type=item,nbt={Item:{id:"minecraft:written_book",tag:{title:"The Key",author:"Borius"}}}] run kill @e[type=item,nbt={Item:{id:"minecraft:written_book",Count:1b,tag:{title:"The Key",author:"Borius"}}}]

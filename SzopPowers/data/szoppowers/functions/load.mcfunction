@@ -7,6 +7,7 @@ tellraw @a {"text": "go ahead, try and complain. Pay me first then you may", "co
 scoreboard objectives add spellcooldown dummy
 scoreboard objectives add cooldownmod level
 
+scoreboard objectives add healthcheck health
 #teams for players
 
 #Wentuziak

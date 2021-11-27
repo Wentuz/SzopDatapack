@@ -2,6 +2,7 @@
 
 execute if entity @a[nbt={Inventory:[{tag:{testmagic:1}}]}] run function szoppowers:testmagic
 
+
 #----------------------------------Items----------------------------------
 execute if entity @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Count:1b,tag:{soulShard:1}}]}] run effect give @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Count:1b,tag:{soulShard:1}}]}] resistance 1
 
