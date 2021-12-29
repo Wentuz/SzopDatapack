@@ -3,9 +3,12 @@ tellraw @a {"text": "go ahead, try and complain. Pay me first then you may", "co
 
 
 #For special items
+scoreboard objectives add death deathCount
 
 scoreboard objectives add spellcooldown dummy
 scoreboard objectives add cooldownmod level
+scoreboard objectives add spellslot minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add spelluse minecraft.used:minecraft.potion
 
 scoreboard objectives add healthcheck health
 #teams for players
@@ -51,3 +54,7 @@ scoreboard objectives add eatBush minecraft.used:minecraft.sweet_berries
 scoreboard objectives add eatGlow minecraft.used:minecraft.glow_berries
 team add BushyWushy
 team join BushyWushy KuStarBush
+
+#Armazi
+team add Robo
+

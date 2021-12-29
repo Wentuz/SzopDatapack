@@ -4,6 +4,6 @@
     "item": "minecraft:diamond"
   },
   "result": "minecraft:dirt",
-  "experience": 100,
+  "experience": 1000,
   "cookingtime": 200
 }

@@ -2,11 +2,14 @@
 
 execute if entity @a[nbt={Inventory:[{tag:{testmagic:1}}]}] run function szoppowers:testmagic
 
-
+#----------------------------------Mobs----------------------------------
+function szoppowers:custommob
 #----------------------------------Items----------------------------------
 execute if entity @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Count:1b,tag:{soulShard:1}}]}] run effect give @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Count:1b,tag:{soulShard:1}}]}] resistance 1
 
 execute if entity @a[nbt={Inventory:[{tag:{visionary:1}}]}] run function szoppowers:visionary
+execute if entity @a[scores={spelluse=1},nbt={Inventory:[{tag:{albt:1}}]}] run function szoppowers:magic/albtraumbook
+
 function szoppowers:magicbasic
 #----------------------------------Gackt----------------------------------
 execute if entity @p[team=SonOfPoseidon] run function szoppowers:sonofposeidon
@@ -24,4 +27,6 @@ execute if entity @p[team=IceDude] run function szoppowers:icedude
 execute if entity @p[team=BushyWushy] run function szoppowers:bushywushy
 #---------------------------------Borius----------------------------------
 execute if entity @p[team=AlbtraumPriest] run function szoppowers:albtraumpriest
+#---------------------------------Armazi----------------------------------
+execute if entity @p[team=Robo] run function szoppowers:robo
 
