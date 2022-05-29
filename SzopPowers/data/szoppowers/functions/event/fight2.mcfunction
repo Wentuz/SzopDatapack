@@ -1,0 +1,6 @@
+execute at wentuziak run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:diamond_sword,Count:1}],HandDropChances:[0.20f],ArmorItems:[{id:diamond_boots,Count:1},{id:diamond_leggings,Count:1},{id:diamond_chestplate,Count:1}],ArmorDropChances:[0.20f,0.20f,0.20f]}
+execute at wentuziak run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:diamond_sword,Count:1}],HandDropChances:[0.20f],ArmorItems:[{id:diamond_boots,Count:1},{id:diamond_leggings,Count:1},{id:diamond_chestplate,Count:1}],ArmorDropChances:[0.20f,0.20f,0.20f]}
+execute at wentuziak run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:diamond_sword,Count:1}],HandDropChances:[0.20f],ArmorItems:[{id:diamond_boots,Count:1},{id:diamond_leggings,Count:1},{id:diamond_chestplate,Count:1}],ArmorDropChances:[0.20f,0.20f,0.20f]}
+execute at wentuziak run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:diamond_sword,Count:1}],HandDropChances:[0.20f],ArmorItems:[{id:diamond_boots,Count:1},{id:diamond_leggings,Count:1},{id:diamond_chestplate,Count:1}],ArmorDropChances:[0.20f,0.20f,0.20f]}
+
+schedule function szoppowers:event/fight3 10s

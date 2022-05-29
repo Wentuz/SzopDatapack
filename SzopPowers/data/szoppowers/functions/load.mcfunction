@@ -31,15 +31,6 @@ scoreboard objectives add DragonSpit minecraft.used:minecraft.glow_berries
 team add AlbtraumPriest
 team join AlbtraumPriest Borius321
 
-scoreboard objectives remove BoriusSpell
-scoreboard objectives remove BoriusCooldown
-
-scoreboard objectives add BoriusSpell trigger
-scoreboard objectives add BoriusCooldown dummy
-scoreboard players enable Borius321 BoriusSpell
-
-scoreboard players set Borius321 BoriusCooldown 0
-
 # MatiSzatani
 team add IceDude
 team join IceDude matiszatani12

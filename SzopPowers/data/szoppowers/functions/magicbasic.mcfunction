@@ -5,5 +5,8 @@ execute if entity @p[scores={spelluse=1..}] run scoreboard players set @p[scores
 
 execute at @p[scores={spellcooldown=1..}] run particle enchant ~ ~1 ~ 0.5 0.1 0.5 2 3 force
 
-execute if entity @p[scores={spellslot=4..}] run scoreboard players set @p[scores={spellslot=4..}] spellslot 0
+execute if entity @p[scores={spellslot=5..}] run scoreboard players set @p[scores={spellslot=5..}] spellslot 0
+
+
+
 
