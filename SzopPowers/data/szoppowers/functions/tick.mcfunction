@@ -1,51 +1,33 @@
-#----------------------------------Test----------------------------------
 
-execute if entity @a[nbt={Inventory:[{tag:{testmagic:1}}]}] run function szoppowers:testmagic
-
-
-execute if entity @p[tag=weedcat] run function szoppowers:tags/weedcat
+#Player tags
 
 
-#----------------------------------Mobs----------------------------------
-function szoppowers:custommob
+execute if entity @a[tag=Antenat] run function szoppowers:tagged/antenat
+execute if entity @a[tag=DeadEater] run function szoppowers:tagged/deadeater
+execute if entity @a[tag=Robo] run function szoppowers:tagged/robo
+execute if entity @a[tag=Fishy] run function szoppowers:tagged/fishy
 
 
-#----------------------------------Items----------------------------------
-execute if entity @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Count:1b,tag:{soulShard:1}}]}] run effect give @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",Count:1b,tag:{soulShard:1}}]}] resistance 1
+#Tagged items
 
-execute if entity @a[nbt={Inventory:[{tag:{visionary:1}}]}] run function szoppowers:visionary
-execute if entity @a[scores={spelluse=1},nbt={Inventory:[{tag:{albt:1}}]}] run function szoppowers:magic/albtraumbook
-
-#smoczy pluj
-execute as @a[nbt={Inventory:[{tag:{drakespit:1}}]},scores={spellslot=1..},tag=drake] at @a[nbt={Inventory:[{tag:{drakespit:1}}]},scores={spellslot=1..},tag=drake] run function szoppowers:magic/drakespit
-
-#Owczy miotacz
-execute as @a[nbt={Inventory:[{tag:{sheepyeet:1}}]},scores={spellslot=1..,spellcooldown=..0}] at @a[nbt={Inventory:[{tag:{sheepyeet:1}}]},scores={spellslot=1..}] run function szoppowers:magic/sheepyeet
-
-#granatnik
-execute as @a[nbt={Inventory:[{tag:{granatnik:1}}]},scores={spellslot=1..}] at @a[nbt={Inventory:[{tag:{granatnik:1}}]},scores={spellslot=1..}] run function szoppowers:magic/granatnik
+execute if entity @a[nbt={Inventory:[{tag:{soulShard:1}}]}] run function szoppowers:itemtags/soulshard
+execute if entity @a[nbt={Inventory:[{tag:{visionary:1}}]}] run function szoppowers:itemtags/visionary
+execute if entity @a[nbt={Inventory:[{tag:{heartStone:1}}]}] run function szoppowers:itemtags/heartstone
+execute if entity @a[nbt={SelectedItem:{tag:{rockTearer:1}}}] run function szoppowers:itemtags/rocktearer
+execute if entity @a[nbt={Inventory:[{Slot:100b,tag:{jet:1}}]}] run function szoppowers:itemtags/jetboots
+execute if entity @a[nbt={SelectedItem:{tag:{boomBow:1}}}] run function szoppowers:itemtags/boomarrow
+execute if entity @a[nbt={SelectedItem:{tag:{reaperHoe:1}}},scores={dmgdelt=1..}] run function szoppowers:itemtags/reaperhoe
 
 
-function szoppowers:magicbasic
+#Magic/Skills
 
-#----------------------------------Gackt----------------------------------
-execute if entity @p[team=SonOfPoseidon] run function szoppowers:sonofposeidon
-execute at @e[type=item,nbt={Item:{id:"minecraft:trident",Count:1b,tag:{display:{Name:'{"text":"69th Trident","color":"aqua","bold":true,"italic":true}'}}}}] run kill @e[type=item,nbt={Item:{id:"minecraft:trident",Count:1b,tag:{display:{Name:'{"text":"69th Trident","color":"aqua","bold":true,"italic":true}'}}}}]
+execute if entity @a[nbt={SelectedItem:{tag:{nightBook:1}}}] run function szoppowers:itemtags/nightbook
 
-#----------------------------------Wentuziak----------------------------------
-execute if entity @p[team=Antenat] run function szoppowers:antenat
 
-#----------------------------------MilaDeCytrus----------------------------------
-execute if entity @p[team=DragonBorn] run function szoppowers:dragonborn
+function szoppowers:spellcooldown
 
-#---------------------------------MatiSzatani----------------------------------
-execute if entity @p[team=IceDude] run function szoppowers:icedude
-#---------------------------------KuStar----------------------------------
-execute if entity @p[team=BushyWushy] run function szoppowers:bushywushy
-#---------------------------------Borius----------------------------------
-execute if entity @p[team=AlbtraumPriest] run function szoppowers:albtraumpriest
-#---------------------------------Armazi----------------------------------
-execute if entity @p[team=Robo] run function szoppowers:robo
 
-#Aku - woof
-execute if entity @p[tag=cursed] run function szoppowers:tags/cursed
+
+# TEST
+
+execute as @e[tag=motion_projectile,tag=!motion_added] at @s rotated as @p run function szoppowers:motion/applymotion
