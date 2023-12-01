@@ -1,2 +1,0 @@
-tellraw @a ["",{"text":"<"},{"text":"Solstice","obfuscated":true,"color":"dark_purple"},{"text":"> I can't help you... sorry. See you on the other side."}]
-schedule function szoppowers:event/fight1 10s
