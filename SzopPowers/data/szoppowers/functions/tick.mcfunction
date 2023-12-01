@@ -6,6 +6,8 @@ execute if entity @a[tag=Antenat] run function szoppowers:tagged/antenat
 execute if entity @a[tag=DeadEater] run function szoppowers:tagged/deadeater
 execute if entity @a[tag=Robo] run function szoppowers:tagged/robo
 execute if entity @a[tag=Fishy] run function szoppowers:tagged/fishy
+execute if entity @a[tag=Dwarf] run function szoppowers:tagged/dwarf
+
 
 
 #Tagged items
