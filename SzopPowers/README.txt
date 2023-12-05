@@ -13,7 +13,7 @@ tag usage
 
 #Tag list for players
 
-DeadEater, Kat, Robo, Antenat, 
+DeadEater, Kat, Robo, Antenat, Dwarf
 
 #Tag list for items
 

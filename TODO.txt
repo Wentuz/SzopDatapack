@@ -1,0 +1,15 @@
+- commented in functions
+Antenat
+Robo
+Fishy
+
+
+- item ideas
+Necronomicon( spellbook that summons mobs )
+fishing rod that summons exploding salmon
+
+- Loot functions
+Antenat ( end items drop table)
+
+- Crafting
+Shulker, End rod
