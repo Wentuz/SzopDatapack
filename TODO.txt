@@ -1,8 +1,5 @@
 - commented in functions
 Antenat
-Robo
-Fishy
-
 
 - item ideas
 Necronomicon( spellbook that summons mobs )

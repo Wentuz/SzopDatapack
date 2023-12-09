@@ -6,4 +6,4 @@ execute at @a[tag=Robo] if block ~ ~0.5 ~ water run particle electric_spark ~ ~0
 
 effect give @a[tag=Robo] minecraft:fire_resistance
 
-#speed in lava, slowness in water
+
