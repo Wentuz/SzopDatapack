@@ -7,6 +7,7 @@ execute if entity @a[tag=DeadEater] run function szoppowers:tagged/deadeater
 execute if entity @a[tag=Robo] run function szoppowers:tagged/robo
 execute if entity @a[tag=Fishy] run function szoppowers:tagged/fishy
 execute if entity @a[tag=Dwarf] run function szoppowers:tagged/dwarf
+execute if entity @a[tag=Polar] run function szoppowers:tagged/polar
 
 
 
@@ -24,7 +25,6 @@ execute if entity @a[nbt={SelectedItem:{tag:{reaperHoe:1}}},scores={dmgdelt=1..}
 #Magic/Skills
 
 execute if entity @a[nbt={SelectedItem:{tag:{nightBook:1}}}] run function szoppowers:itemtags/nightbook
-
 
 function szoppowers:spellcooldown
 

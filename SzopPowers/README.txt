@@ -13,11 +13,11 @@ tag usage
 
 #Tag list for players
 
-DeadEater, Kat, Robo, Antenat, Dwarf
+DeadEater, Kat, Robo, Antenat, Dwarf, Polar
 
 #Tag list for items
 
-visionary, soulShard, heartStone, rockTearer, nightBook, jet, boomArrow, boomBow, reaperHoe
+visionary, soulShard, heartStone, rockTearer, nightBook, jet, boomArrow, boomBow, reaperHoe, explodingSnowball
 
 #Custom craftings
 
@@ -32,6 +32,8 @@ scoreboard objectives add hearts health
 scoreboard objectives add spell dummy
 scoreboard objectives add cooldown dummy
 scoreboard objectives add cooldownmod level
+
+scoreboard objectives add snowThrow minecraft.used:minecraft.snowball
 
 scoreboard objectives add eatEye minecraft.used:minecraft.spider_eye
 scoreboard objectives add eatPuffer minecraft.used:minecraft.pufferfish

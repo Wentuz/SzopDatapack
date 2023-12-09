@@ -1,6 +1,6 @@
 tellraw @a {"text": "SZOP", "color": "#00FF00"}
-tellraw @a {"text": "go ahead, try and complain. I may even try to care", "color": "#00FF00"}
-
+tellraw @a {"text": "HELLO ! HI !! I AM SO HAPPY TO SEE YOU :D", "color": "#00FF00"}
+tellraw @a {"text": "WOW WEH U HAS BEEN Awawawawawawa :3", "color": "#00FF00"}
 
 
 
@@ -13,6 +13,8 @@ scoreboard objectives add spell dummy
 scoreboard objectives add cooldown dummy
 scoreboard objectives add cooldownmod level
 scoreboard objectives add spell dummy
+
+scoreboard objectives add snowThrow minecraft.used:minecraft.snowball
 
 scoreboard objectives add dmgdelt minecraft.custom:minecraft.damage_dealt
 
