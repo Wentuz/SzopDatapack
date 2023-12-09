@@ -16,7 +16,7 @@ scoreboard objectives add spell dummy
 scoreboard objectives add deathcheck deathCount
 
 scoreboard objectives add snowThrow minecraft.used:minecraft.snowball
-
+scoreboard objectives add potiondrank minecraft.used:minecraft.potion
 scoreboard objectives add dmgdelt minecraft.custom:minecraft.damage_dealt
 
 scoreboard objectives add sneaks minecraft.custom:minecraft.sneak_time

@@ -1,5 +1,4 @@
 - commented in functions
-Dwarf
 
 - item ideas
 Necronomicon( spellbook that summons mobs )
