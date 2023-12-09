@@ -7,4 +7,3 @@ fishing rod that summons exploding salmon
 - Loot functions
 
 - Crafting
-Shulker

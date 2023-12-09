@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "# #",
+    "YXY",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "X": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "Y": {
+      "item": "minecraft:experience_bottle"
+    }
+  },
+  "result": {
+    "item": "minecraft:shulker_shell"
+  }
+}
