@@ -13,6 +13,7 @@ scoreboard objectives add spell dummy
 scoreboard objectives add cooldown dummy
 scoreboard objectives add cooldownmod level
 scoreboard objectives add spell dummy
+scoreboard objectives add deathcheck deathCount
 
 scoreboard objectives add snowThrow minecraft.used:minecraft.snowball
 

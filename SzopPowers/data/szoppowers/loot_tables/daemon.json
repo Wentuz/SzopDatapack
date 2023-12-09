@@ -11,19 +11,45 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2,
+                "max": 5,
                 "type": "minecraft:uniform"
               }
             },
             {
               "function": "minecraft:looting_enchant",
               "count": {
-                "min": 3,
-                "max": 6
+                "min": 1,
+                "max": 5
               }
             }
           ],
-          "name": "minecraft:crying_obsidian"
+          "name": "minecraft:end_stone"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "name": "minecraft:chorus_flower"
         }
       ]
     },
@@ -37,7 +63,33 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 0,
-                "max": 10,
+                "max": 1,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "name": "minecraft:shulker_shell"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 3,
                 "type": "minecraft:uniform"
               }
             },

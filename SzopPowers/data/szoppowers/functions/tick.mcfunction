@@ -28,7 +28,7 @@ execute if entity @a[nbt={SelectedItem:{tag:{nightBook:1}}}] run function szoppo
 
 function szoppowers:spellcooldown
 
-
+execute if entity @a[scores={deathcheck=1..}] run scoreboard players set @a[scores={deathcheck=1..}] deathcheck 0
 
 # TEST
 
