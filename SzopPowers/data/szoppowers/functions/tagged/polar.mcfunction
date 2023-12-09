@@ -6,6 +6,7 @@ execute if entity @a[tag=Polar,scores={snowThrow=1..}] run scoreboard players se
 
 
 execute at @a[tag=Polar] run attribute @p minecraft:generic.attack_damage base set 6
+execute at @a[tag=Polar] run attribute @p minecraft:generic.armor base set -10
 execute at @a[tag=Polar] run attribute @p minecraft:generic.max_health base set 30
 execute at @a[tag=Polar] run attribute @p minecraft:generic.attack_speed base set 3.8
 execute at @a[tag=Polar] run attribute @p minecraft:generic.follow_range base set 300
