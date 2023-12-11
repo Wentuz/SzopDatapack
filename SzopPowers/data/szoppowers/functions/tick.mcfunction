@@ -8,6 +8,7 @@ execute if entity @a[tag=Robo] run function szoppowers:tagged/robo
 execute if entity @a[tag=Fishy] run function szoppowers:tagged/fishy
 execute if entity @a[tag=Dwarf] run function szoppowers:tagged/dwarf
 execute if entity @a[tag=Polar] run function szoppowers:tagged/polar
+execute if entity @a[tag=HighElf] run function szoppowers:tagged/highelf
 
 
 
