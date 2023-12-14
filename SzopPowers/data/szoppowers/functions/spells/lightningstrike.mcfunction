@@ -20,5 +20,5 @@ execute at @a[scores={spell=1..,cooldown=0}] run summon tnt ^ ^ ^10
 
 #Cooldown set
 
-execute at @a[scores={spell=1..,cooldown=0}] run scoreboard players set @a[scores={spell=1..,cooldown=0}] cooldown 3000
+execute at @a[scores={spell=1..,cooldown=0}] run scoreboard players set @a[scores={spell=1..,cooldown=0}] cooldown 2000
 execute at @a[scores={spell=1..}] run scoreboard players set @a[scores={spell=1..}] spell 0

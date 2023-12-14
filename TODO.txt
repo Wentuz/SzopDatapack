@@ -1,5 +1,6 @@
 - commented in functions
-
+	Shift click on Antenat to free fall
+	Lower all spell costs
 - item ideas
 Necronomicon( spellbook that summons mobs )
 fishing rod that summons exploding salmon

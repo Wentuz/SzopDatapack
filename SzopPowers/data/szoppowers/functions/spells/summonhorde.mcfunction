@@ -15,5 +15,5 @@ execute at @a[scores={spell=1..,cooldown=0}] run playsound minecraft:entity.husk
 
 
 
-execute at @a[scores={spell=1..,cooldown=0}] run scoreboard players set @a[scores={spell=1..,cooldown=0}] cooldown 5000
+execute at @a[scores={spell=1..,cooldown=0}] run scoreboard players set @a[scores={spell=1..,cooldown=0}] cooldown 3000
 execute at @a[scores={spell=1..}] run scoreboard players set @a[scores={spell=1..}] spell 0

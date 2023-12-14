@@ -8,5 +8,5 @@ execute at @a[scores={spell=1..,cooldown=0}] run playsound minecraft:entity.tnt.
 
 
 #Cooldown
-execute at @a[scores={spell=1..,cooldown=0}] run scoreboard players set @a[scores={spell=1..,cooldown=0}] cooldown 12000
+execute at @a[scores={spell=1..,cooldown=0}] run scoreboard players set @a[scores={spell=1..,cooldown=0}] cooldown 10000
 execute at @a[scores={spell=1..}] run scoreboard players set @a[scores={spell=1..}] spell 0

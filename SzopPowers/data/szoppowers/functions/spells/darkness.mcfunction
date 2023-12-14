@@ -7,5 +7,5 @@ execute at @a[scores={spell=1..,cooldown=0}] run playsound minecraft:entity.ward
 
 #Cooldown
 
-execute at @a[scores={spell=1..,cooldown=0}] run scoreboard players set @a[scores={spell=1..,cooldown=0}] cooldown 500
+execute at @a[scores={spell=1..,cooldown=0}] run scoreboard players set @a[scores={spell=1..,cooldown=0}] cooldown 300
 execute at @a[scores={spell=1..}] run scoreboard players set @a[scores={spell=1..}] spell 0

@@ -32,6 +32,8 @@ function szoppowers:spellcooldown
 execute if entity @a[scores={deathcheck=1..}] run scoreboard players set @a[scores={deathcheck=1..}] deathcheck 0
 execute if entity @a[scores={potiondrank=1..}] run scoreboard players set @a[scores={potiondrank=1..}] potiondrank 0
 
+execute at @a[scores={sneaks=1..}] run scoreboard players set @a[scores={sneaks=1..}] sneaks 0
+
 
 # TEST
 

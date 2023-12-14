@@ -7,5 +7,5 @@ execute at @a[scores={spell=1..,cooldown=0}] run effect give @e[scores={spell=1.
 
 #Cooldown
 
-execute at @a[scores={spell=1..,cooldown=0}] run scoreboard players set @a[scores={spell=1..,cooldown=0}] cooldown 1500
+execute at @a[scores={spell=1..,cooldown=0}] run scoreboard players set @a[scores={spell=1..,cooldown=0}] cooldown 1000
 execute at @a[scores={spell=1..}] run scoreboard players set @a[scores={spell=1..}] spell 0
